@@ -59,3 +59,72 @@ ul li a {
 .active a {
     color: #217c4f;
 }
+
+main {
+    padding: 1em;
+    text-align: center;
+}
+h1 {
+    font-size: 1.5rem;
+    position: relative;
+    margin-top: 3em;
+}
+h1:before {
+    content: '';
+    position: absolute;
+    width: 30%;
+    height: 7px;
+    background: #7a4900;
+    top: -20px;
+    left: 33%;
+}
+p {
+    font-size: .8rem;
+    line-height: 1.4em;
+    width: 905;
+    margin: 0 auto 2em;;
+}
+.cta {
+    display: block;
+    padding: .7em;
+    margin-bottom: 1em;
+    background-color: #7a4900;
+    color: white;
+    white-space: nowrap;
+}
+.outline {
+    background: none;
+    border: 2px solid #47946e;
+    color: black;
+}
+
+.plant-container {
+    overflow: hidden;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100vh;
+    z-index: -1;
+}
+.plant {
+    width: 350px;
+    position: absolute;
+    right: -1%;
+    bottom: -28%;
+}
+.fern {
+    background: url('fern.svg') no-repeat;
+    height: 50vh;
+    width: 70%;
+    position: absolute;
+    top: 30%;
+    left: 0;
+    z-index: -1;
+    opacity: 0.1;
+}
+
+/* js functionality */
+.open-nav {
+    display: grid;
+}
