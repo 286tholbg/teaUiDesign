@@ -128,3 +128,43 @@ p {
 .open-nav {
     display: grid;
 }
+
+/* Responsiveness */
+
+@media (min-width: 500px){
+    body {
+        font-size: 18px;
+    }
+    .menu, .exit {
+        display: none;
+    }
+    ul {
+        display: flex;
+        background: none;
+        height: unset;
+        position: unset;
+        text-transform: uppercanse;
+    }
+    ul li a {
+        font-size: .9em;
+        margin-left: unset;
+        padding: 0 .5rem;
+    }
+    h1 {
+        font-size: 2.5em;
+    }
+    p {
+        font-size: 1em;
+    }
+    .btn-container {
+        display: flex;
+        justify-content: center;
+    }
+    .cta {
+        padding: .7em 1.2em;
+    }
+    .outline {
+        margin-left: 1em;
+    }
+    
+}
